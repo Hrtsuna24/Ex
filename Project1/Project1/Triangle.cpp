@@ -3,8 +3,11 @@
 std::ostream& Triangle::print(std::ostream& out) const
 {
 	// TODO: insert return statement here
+	size_t i{};
 	out << "Triangle("
-
+		<< m_Arr[i++] << ", "
+		<< m_Arr[i++] << ", "
+		<< m_Arr[i]
 		<< ')';
 	return out;
 }

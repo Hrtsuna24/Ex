@@ -4,7 +4,8 @@
 class Circle :
     public Shape
 {
-
+    Point m_center{};
+    int m_radius{};
 public:
     virtual std::ostream& print(std::ostream& out) const override;
 
