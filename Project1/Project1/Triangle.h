@@ -4,7 +4,7 @@
 class Triangle :
     public Shape
 {
-
+    Point m_Arr[3];
 public:
     virtual std::ostream& print(std::ostream& out) const override;
 
