@@ -10,5 +10,7 @@ public:
     virtual std::ostream& print(std::ostream& out) const override;
 
     Circle(const Point&, int = 0);
+
+    const int& getRadius() const { return m_radius; };
 };
 
