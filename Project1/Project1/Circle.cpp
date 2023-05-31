@@ -10,6 +10,8 @@ std::ostream& Circle::print(std::ostream& out) const
     return out;
 }
 
-Circle::Circle(const Point&, int)
+Circle::Circle(const Point& p, int x) :
+    m_center(p), m_radius(x)
 {
+
 }
